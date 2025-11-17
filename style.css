@@ -862,12 +862,33 @@ section {
         text-align: center;
     }
 
-    .footer-social {
+        .footer-social {
         order: 1;
     }
 
     .footer-bottom p {
         order: 2;
     }
+}  /* ← Здесь заканчивается медиа-запрос */
+
+/* Новые стили для иконок Одноклассники и Rutube */
+.footer-social-link.ok {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link.rutube {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-ok-text {
+    font-size: 0.4rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.footer-rutube-text {
+    font-size: 0.35rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
